@@ -34,6 +34,9 @@ I was not able to upload some of the files to the repo, as they were too big (ev
 ## Results
 The dot map can be viewed at https://api.mapbox.com/styles/v1/cacomixl/cl3w7e9qc00fb15l7geekmeke.html?title=view&access_token=pk.eyJ1IjoiY2Fjb21peGwiLCJhIjoiY2wyb2MydDhqMDRlZDNjbTh5bGJkNjZuYyJ9.Bb_yFaNZPLr63sO7AL_clQ&zoomwheel=true&fresh=true#5.71/33.124/-100.561/0/1
 
+Here's a legend, for reference:
+![LegendBlack](https://user-images.githubusercontent.com/104388190/171663302-0d19ba61-e5c2-4a8a-afdb-2f05586bb35b.jpg)
+
 Here are some highlights from the dot map: places that I was led to by my queries as well as places I discovered just by scrolling around the map.
 
 ### The Classics
@@ -42,15 +45,33 @@ Here are some highlights from the dot map: places that I was led to by my querie
 ![nycAsian](https://user-images.githubusercontent.com/104388190/171633536-7d436f19-7891-4f40-98ff-132e1f04dfa2.jpg)
 
 ### Exceptionally Asian Places
+
 ![mspAsian](https://user-images.githubusercontent.com/104388190/171633627-6de32c4d-9a59-4e36-bc5d-c154da2ecf12.jpg)
+
+The most remarkable part of the dot map of Minneapolis-St. Paul is just how orange it is, especially as compared to other cities. This indicates a high percentage of the _Other South Asian_ category, comprising Hmong, Laotian, Burmese, Cambodian, Malaysian, and Indonesian Americans. In particular, the Hmong population of Minneapolis-St. Paul is unparalleled, although the Burmese and Cambodian populations are quite high as well. Many Hmong people arrived in Minnesota as refugees from the wars in Indochina in the 1960s and 70s, and have since formed a vibrant community. St. Paul is home to the Hmong Village and HmongTown Marketplace shopping centers and the Hmong Cultural Center, as well as the birthplace of Hmong-American gymnast Sunisa Lee.
+
 ![detroitAsian](https://user-images.githubusercontent.com/104388190/171633677-11c136a9-1009-494b-a04e-debafa7ba829.jpg)
-![oahuAsian](https://user-images.githubusercontent.com/104388190/171633563-224c641d-def5-4d5a-9fd2-6e66b070175a.jpg)
+
+In the middle of Detroit, a city largely devoid of Asian-Americans in its center, lies a bright yellow-and-green splotch. This splotch is Hamtramck, Michigan, a historically Polish neighborhood that is now home to many Indians and Bangladeshis. Many Hamtramck residents are Muslim, and it is the first American city to have a city council composed of only Muslims. As such, the city has numerous mosques, as well as an annual Bangladeshi festival.
+
 ![napervilleAsian](https://user-images.githubusercontent.com/104388190/171635128-869d24a4-dda5-45e1-beff-1c369c31aecc.jpg)
-![millbourneAsian](https://user-images.githubusercontent.com/104388190/171635095-e0559bbe-c7d6-4b6d-a61a-ef6c65a602d2.jpg)
+
+Naperville, like many of Chicago's southwestern suburbs, is concentrated with a diverse group of Asian-Americans. It is one of the >20% Asian, >100,000 population cities in the US. It has large Indian, Chinese, and Filipino-American quarters, and this is reflected in the massive nearby Fox Valley mall. The mall contains delineated dining areas for Indian, Chinese, and Filipino food. At the same time, though, there is significant intermixing between these through large Asian-American populations: there are tracts in southeast Naperville where each of the three groups makes up between 15 and 25% of the Asian population.
+
 
 ### Small Towns with Interesting Asian Populations
+
 ![kodiakAsian](https://user-images.githubusercontent.com/104388190/171633711-cf6fdaf5-1ad8-462c-a94e-c248fa4d817a.jpg)
+
+Kodiak was one of the places that popped up when I found all the >33% Asian-American places in the US: 2,781 of its 5,983 residents, or 46%, identify as such. I might've expected that Alaska would have a high Asian population due to its relative proximity, but I wouldn't have expected the largest Asian subgroup in Alaska to be Filipino! Kodiak is the prime example of this, with upwards of 35% of its population being Filipino. It is replete with two Asian markets, a Filipino barbeque shop, and a Filipino church within its small confines. Historically, Filipinos came to Alaska as seafarers in search of better-paying jobs, from cable-laying to gold-mining to fish-canning. Filipino-Alaska fish canners, known as _Alaskeros_, were subject to discriminatory and racist treatment at work, and formed a union, the first of its kind, to call for better working conditions
+
 ![burasAsian](https://user-images.githubusercontent.com/104388190/171633750-24ff31ba-237a-48fa-80f5-5c0543671950.jpg)
+
+Buras also popped up on the list of >33% Asian-American places, being 50% percent Asian-American, and I was even more surprised about Buras than I was about Kodiak. Because the town was so small, I thought it might even be a mistake, but the evidence seems to back the numbers up. Buras has a large population of Cambodian and Vietnamese fisherpeople who withstood the horrors of Hurricane Katrina. Buras is also home to a Vietnamese market and a Chinese restaurant, significant for a town of less than 1,000. 
+
+![millbourneAsian](https://user-images.githubusercontent.com/104388190/171635095-e0559bbe-c7d6-4b6d-a61a-ef6c65a602d2.jpg)
+
+Millbourne may be smack dab near the center of Philadelphia, but it counts as its own census-designated place, and because of that, it showed up on my list, with a whopping 67% of residents being Asian-American. This tiny sliver of 1,258  people is the home of the Philadelphia Sikhi Society, as well as a Bangladeshi grocery store, and the bright green and yellow dots just West of Downtown suggest that Millbourne is a hub for South Asian people in the Philadelphia area. Previously a Korean neighborhood, and with one Korean restaurant open in the town, Millbourne has transformed into a Punjabi and Bangladeshi center since the turn of the century.
 
 ## Discussion
 One pattern that I noticed while looking at the map as a whole was that Asian-Americans were often clustered quite heavily around cities. However, I wasn't sure whether that was just because Americans in general tend to be clustered in cities, or Asian-Americans were particuraly prevalent in them. As it turns out (after some data wrangling, group-by-ing, and summarizing), Asian-Americans are indeed more concentrated in cities than American as a whole. Whereas Asian-Americans only make up 5.6% of the US population, they make up 9.7% of the population in counties labeled as "Large Central Metro". That percentage drops precipitously in less urban areas, with Asian-Americans comprising 2.2% of the population in "Small Metro" areas, 1.3% in "Micropolitan" areas, and only 0.6% in "Non-Core" areas.
@@ -63,5 +84,7 @@ This spatial distribution led me to wonder how urban/rural distribution varied b
 
 
 ## Conclusion
+
+This was a really fun exercise for me in visualization!
 
 One thing I struggled with was that, whatever I did, dots for certain ethnic groups tended to get placed on top of other dots, creating an illusion (when viewed from far enough away) that those groups have larger, denser populations than they do. I heard that tippecanoe for Mapbox might be a solution for this, but I was struggling to even get tippecanoe on my laptop at all, so I decided to simply deal with the fact of the uneven distribution. In this future I would like to find a solution to this, but in the meantime I still think it looks pretty and tells a story! I also wasn't able to make a legend in Mapbox. I realized too late that this requires knowledge of Javascript, which I have no familiarity with, and a Mapbox.js platform that I didn't quite understand. This very much hampers the map reader's ability to figure out what's going on, and if not a legend I'd at least like to find a way to express the meaning of the map colors to any reader who's looking at the project.
