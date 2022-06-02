@@ -21,13 +21,20 @@ I used tract-level data, as that is the smallest scale at which Asian-American e
 The census data comes from the 2016-2020 ACS 5-year estimate. I tried to get the most up-to-date data possible, and at first I tried to use 2020 census data, but it seems that ethnicity data for the 2020 census hasn't been published yet, so the ACS had to be sufficient. Regarding urban/rural classification, it seemed that the CDC had most recently published its classifications in 2013. However, I think this is okay, as the structure of a county uis nlikely to change that much in 10 years, especially in an era of relative stagnation in population, and 2013 data can be used to define the broadest of labels in 2022.
 
 ## Methods
-
+I referenced Jia Zhang's work at the Center for Spatial Research in making an Asian-American basemap (visible at https://medium.com/uncharted-singles/asian-american-dot-density-map-84271a4e68cd), but diverged from her methods in generating random dots for the basemap. For the random dot generation, I relied upon various online tutorials, the most prominent being that of Cornell GIS (at https://www.youtube.com/watch?v=TOY_7xKtTcU).
 
 ## Results
 The basemap can be viewed at https://api.mapbox.com/styles/v1/cacomixl/cl3w7e9qc00fb15l7geekmeke.html?title=view&access_token=pk.eyJ1IjoiY2Fjb21peGwiLCJhIjoiY2wyb2MydDhqMDRlZDNjbTh5bGJkNjZuYyJ9.Bb_yFaNZPLr63sO7AL_clQ&zoomwheel=true&fresh=true#5.71/33.124/-100.561/0/1
 
 
 ## Discussion
-By and large, Asian-Americans live in urban areas
+One pattern that I noticed while looking at the map as a whole was that Asian-Americans were often clustered quite heavily around cities. However, I wasn't sure whether that was just because Americans in general tend to be clustered in cities, or Asian-Americans were particuraly prevalent in them. As it turns out, Asian-Americans are indeed more concentrated in cities than American as a whole. Whereas Asian-Americans only make up 5.6% of the US population, they make up 9.7% of the population in counties labeled as "Large Central Metro". That percentage drops precipitously in less urban areas, with Asian-Americans comprising 2.2% of the population in "Small Metro" areas, 1.3% in "Micropolitan" areas, and only 0.6% in "Non-Core" areas.
+
+![Asian Percents by Urban Code](https://user-images.githubusercontent.com/104388190/171604802-0c5d8163-d1ae-4694-916b-f1e437f59126.jpg)
+
+This spatial distribution led me to wonder how urban/rural distribution varied by Asian ethnic group. After lots of typing in R, I got the table below. It revealed noticeable differences between Asian ethnic groups. Taiwanese-Americans were the most urban, with 51.5% living in "Large Central Metro" counties, closely followed by Chinese-Americans and Vietnamese-Americans. On the other end of the spectrum, Bhutanese, Hmong, and Laotian Americans all had "Large Central Metro" residence rates south of 30%, and higher residence in "Medium Metro" areas.
+
+[cty_ethn_agg2.csv](https://github.com/cacomixl/GEOG-28602-Final/files/8822762/cty_ethn_agg2.csv)
+
 
 ## Conclusion
