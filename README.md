@@ -40,15 +40,13 @@ Here are some highlights from the dot map: places that I was led to by my querie
 ![bayAsian](https://user-images.githubusercontent.com/104388190/171633497-de9807b1-7e45-4b15-874b-5263f9d0deb6.jpg)
 ![laAsian](https://user-images.githubusercontent.com/104388190/171633523-f7e352b4-9ca7-4d0f-98d9-e4ebf620c553.jpg)
 ![nycAsian](https://user-images.githubusercontent.com/104388190/171633536-7d436f19-7891-4f40-98ff-132e1f04dfa2.jpg)
-![seattleAsian](https://user-images.githubusercontent.com/104388190/171633571-cb27533c-01af-4f63-a45a-f14d5caaa8b1.jpg)
-![houstonAsian](https://user-images.githubusercontent.com/104388190/171633589-c8b1384f-b6cd-475d-bc23-01d2a3a52017.jpg)
 
 ### Exceptionally Asian Places
 ![mspAsian](https://user-images.githubusercontent.com/104388190/171633627-6de32c4d-9a59-4e36-bc5d-c154da2ecf12.jpg)
-![napervilleAsian](https://user-images.githubusercontent.com/104388190/171633633-beacecff-7931-4d61-a3dd-a144c8ba5341.jpg)
 ![detroitAsian](https://user-images.githubusercontent.com/104388190/171633677-11c136a9-1009-494b-a04e-debafa7ba829.jpg)
 ![oahuAsian](https://user-images.githubusercontent.com/104388190/171633563-224c641d-def5-4d5a-9fd2-6e66b070175a.jpg)
-![millbourneAsian](https://user-images.githubusercontent.com/104388190/171633693-3516f001-8b1e-4d36-a078-6dd57635c67d.jpg)
+![napervilleAsian](https://user-images.githubusercontent.com/104388190/171635128-869d24a4-dda5-45e1-beff-1c369c31aecc.jpg)
+![millbourneAsian](https://user-images.githubusercontent.com/104388190/171635095-e0559bbe-c7d6-4b6d-a61a-ef6c65a602d2.jpg)
 
 ### Small Towns with Interesting Asian Populations
 ![kodiakAsian](https://user-images.githubusercontent.com/104388190/171633711-cf6fdaf5-1ad8-462c-a94e-c248fa4d817a.jpg)
